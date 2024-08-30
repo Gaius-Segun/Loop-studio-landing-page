@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-image: url(images/desktop/image-hero.jpg);
+background-position: center;
+background-size: cover;
+height: 70vh;
+padding: 40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vh;
+}
+header ul{
+ display: flex;
+ gap: 20px;
+ list-style: none;
+margin-right: 10vh;
+}
+header a{
+    display: block;
+    text-decoration: none;  
+    color: white;
+    align-items: center;
+}
+header h1{
+    border-radius: 2px;
+    text-transform: uppercase;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+    width: 400px;
+    border: 1px solid white;
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+main{
+    margin: 10vw;
+    display: flex;
+    align-items: end;
+}
+
+main>div:first-child{
+    background-image: url(images/desktop/image-interactive.jpg);
+    width: 150%;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    height: 60vh
+}
+main>div:last-child{
+    background-color: white;
+    border: 2px solid white;
+    padding: 5vw 0 0 5vw;
+    position: relative;
+    left: -100px;
+}
+section{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin-inline: 10vw;
+    gap: 20px;
+  }
+  section div{
+    height: 60vh;
+    border: 2px solid green;
+    display: flex;
+    align-items: end;
+  }
+  section>div.box1{
+    background-image:url(./images/desktop/image-deep-earth.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box2{
+    background-image:url(./images/desktop/image-night-arcade.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box3{
+    background-image:url(./images/desktop/image-soccer-team.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box4{
+    background-image:url(./images/desktop/image-grid.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box5{
+    background-image:url(./images/desktop/image-from-above.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box6{
+    background-image:url(./images/desktop/image-pocket-borealis.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box7{
+    background-image:url(./images/desktop/image-curiosity.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+section>div.box8{
+    background-image:url(./images/desktop/image-fisheye.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 83px;
+    width: 15px;
+}
+button>a.href{
+display: flex;
+align-items: end;
+flex-direction: column;
+}
+
+  footer{
+    background: #000;
+    color: white;
+    padding-inline: 10vw;
+  }
+  
